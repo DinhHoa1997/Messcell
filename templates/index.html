@@ -121,15 +121,41 @@
                 <div class="modal">
     
                   <div class="modal-wrapper modal-transition">
-                    <div class="modal-header">
-                      <button class="modal-close modal-toggle">close</button>
-                      <h2 class="modal-heading">This is a modal</h2>
-                    </div>
-                    
+                   
+                    <button class="modal-close modal-toggle"><i class="fas fa-times"></i></button>   
                     <div class="modal-body">
-                      <div class="modal-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eum delectus, libero, accusantium dolores inventore obcaecati placeat cum sapiente vel laboriosam similique totam id ducimus aperiam, ratione fuga blanditiis maiores.</p>
-                       
+                      <div class="modal-content ">
+                        <div class="booking-modal">
+                          <div class="title">ĐẶT HẸN VỚI BÁC SĨ</div>
+                          <form  action="/index4.php?page=contact&lang=" method="post" class="frmSubmit" id="formtuvan" data-alert="Bạn cần nhập đủ thông tin vào những trường màu đỏ" data-captcha ="Mã captcha không đúng" data-success="Thông tin liên hệ đã được gửi thành công !" data-redirect="/contact-success/" class="frmSubmit">
+                            <input type="hidden"  name="code" value="save" />     
+                  
+                              <div class="form_booking">
+                                <div class="c20"></div>
+                                <div class="intro">Eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                  <div class="c10"></div>
+                                <div class="flex-container">
+                                  <div class="cell-1-1 tab-cell-1-1">
+                                    <input name="yourname" type="text" class="txt-contact notNull" placeholder="Họ tên*">
+                                  </div> 
+                                  <div class="cell-1-2 tab-cell-1-1">
+                                    <input name="phone" type="text"  class="txt-contact notNull"  placeholder="Điện thoại*">
+                                  </div>
+                                  <div class="cell-1-2 tab-cell-1-1">
+                                    <input name="email" type="text"  class="txt-contact notNull"  placeholder="Email*">
+                                  </div>
+                                  <div class="cell-1-1 tab-cell-1-1">
+                                    <textarea name="other_request" placeholder="Ghi chú"></textarea>
+                                  </div>
+                                </div>
+                                <input name="input" type="button" onClick="$('#formtuvan').submit()"  class="btn-dangky hvr-bounce-to-bottom" value="Đặt hẹn" />
+                              </div>
+                              <div class="c30"></div>
+                          </form>
+                        </div>
+                          
+              
+                        
                       </div>
                     </div>
                   </div>
