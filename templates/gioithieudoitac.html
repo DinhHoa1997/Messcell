@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Msc clinic</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+  <meta name="theme-color" content="#0099ff" />
+  <meta http-equiv="Content-Language" content="VN" />
+  <meta name="description" content="Msc clinic" />
+  <meta name="keywords" content="" />
+  <meta property="og:url" name="og:url" content="" data-app />
+  <meta property="og:type" name="og:type" content="website" data-app />
+  <meta property="og:description" name="og:description" content="Msc clinic" data-app />
+  <meta property="og:title" name="og:title" content="Msc clinic" data-app />
+  <meta property="og:image" name="og:image" content="http://tonvietphap.24h.co/uploaded/logo/logo.png" data-app />
+
+  <link href="/favicon.png" rel="shortcut icon" />
+  <!-- <link rel="stylesheet" type="text/css" href="/css/style1.css" /> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/grid.css" />
+  <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+  <link rel="stylesheet" type="text/css" href="/css/swiper.css" />
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" type="text/css" href="/css/fontawesome-5.12.1/fontanwesome-pro/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/jquery.mmenu.all.css" />
+  <link rel="stylesheet" href="/css/jquery-ui.css" />
+  <link rel="stylesheet" href="/css/hotline.css">
+  <script src="/js/jquery-1.10.1.min.js"></script>
+  <script src="/js/swiper.min.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/jquery.form.min.js"></script>
+  <script src="/js/jquery.mmenu.min.all.js"></script>
+  <script src="/js/jquery.quick.pagination.min.js"></script>
+</head>
+
+<body>
+<div id="page">
+    <!-- header pc -->
+    <header class="header hide-on-pad hide-on-tab">
+      <div class="grid">
+        <div class="flex-container flex-centered">
+          
+            <div class="menubar">
+              <div class="logo">
+                <img src="/uploaded/logo/logo.png" alt="">
+              </div>
+              <ul class="nav hide-on-mobile">
+                <li class="">
+                   <a href="/templates/about1.html" class=""><span> Giới thiệu  </span></a>
+                </li>
+                <li class=""> 
+                  <a href="#" class=""><span>Bệnh thoái hóa khớp </span></a>
+                    <ul class="submnu1">
+                        <li class=""><a href="#">Tin tức sự kiện 1</a>
+                        </li>
+                        <li class=""><a href="#">Tin tức sự kiện 2</a>
+                        </li>
+                        <li class=""><a href="#">Tin tức sự kiện 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=""> 
+                  <a href="#" class=""><span>Chấn thương chỉnh hình</span></a>  
+                  <ul class="submnu1">
+                    <li class=""><a href="#">Học bổng thạc sĩ</a>
+                    </li>
+                    <li class=""><a href="#">học bổng tiến sĩ</a>
+                    </li>
+                    <li class=""><a href="#">Học bổng đại học</a>
+                    </li>
+                    <li class=""><a href="#">Học bổng postdoc</a>
+                    </li>
+                </ul>     
+                </li>
+                <li class="">
+                   <a href="#" class=""><span>Bệnh lý cơ xương khớp khác </span></a>
+                     <ul class="submnu1">
+                        <li class=""><a href="#">Khóa học 2</a>
+                        </li>
+                        <li class=""><a href="#">Khóa học 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=""> 
+                  <a href="/du-an-dau-tu/" class=""><span>Tin tức</span></a>     
+                    
+                </li>
+                <li class=""> 
+                  <a href="/du-an-dau-tu/" class=""><span>Liên hệ</span></a>     
+                    
+                </li>
+                <li class="">
+                 <div class="icon-search" >
+                      <i class="fa fa-search search-icon" aria-hidden="true"></i>
+                      <div class="search-pc" style="display: none;">
+                        <form action="/search/" method="get" id="searchformtab">
+                          <input name="qr" class="kw" placeholder="Tìm kiếm " type="text">
+                            <a href="#" class="submit-search-pc" onClick="$('#searchformtab').submit();
+                                return false;">  <i class="fa fa-search" aria-hidden="true"></i> </a>
+
+                            <a href="#" class="closeX" onClick="$('.search-pc').hide();
+                                return false;">&#10005;</a>        
+                        </form>
+                      </div>
+
+                      <script type="text/javascript">
+                          $(document).ready(function () {
+                            $(".search-icon").click(function () {
+                              $(".search-pc").stop().slideToggle("fast");
+                              return false;
+                            });
+                          });
+                      </script>  		
+                  </div>
+                </li>
+              
+                </ul>
+                <a class="book" href="#">Đặt lịch hẹn</a>
+                <div class="lang">
+                    <a href="#" class="vi"></a>
+                </div>
+            </div>
+        </div>
+      </div>
+  
+      <div class="c"></div>
+    </header>
+    <!-- end header pc -->
+    <div class="hide-on-pc">
+        <div class="top-header">
+          <div class="title-image">
+            <img src="/uploaded/files/header-title.png" alt="">
+          </div>
+          <div class="lang">
+            <a href="#" class="vi"></a>
+            <a href="#" class="en"></a>
+          </div>
+        </div>
+        <div class="header-mb">
+          <a href="logo">
+            <img src="/uploaded/logo/logo.png" alt="">
+          </a>
+          <a class="menu-mobile" href='#menu'><i class='fa fa-list'></i></a>
+         
+        </div>
+    </div>
+  
+    <!-- content -->
+    <div class="content">
+        
+        <div class="c"></div>
+
+        <div class="crumb">
+            <div class="grid">
+                <a href="/"> <i class="fas fa-home"></i>  </a> 
+                <i class="fa fa-angle-right"></i> 
+                <a href='/danh-muc-dau-tu/'>Giới thiệu</a>&nbsp;
+                <i class="fa fa-angle-right"></i> 
+                <a href='/danh-muc-dau-tu/'>Giới thiệu về đối tác  </a>&nbsp;
+            </div>
+        </div>
+        <div class="c"></div>
+            <!-- slideshow -->
+        <div class="banner">
+            <div class="swiper-container" id="slide_home">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <div class="slidehome">
+                    <img src="/uploaded/background/aboutbg.png" alt="">    
+                </div>
+                </div>
+            </div>
+        </div> 
+    <div class="c"></div>
+<script>
+
+    var swiper = new Swiper("#slide_home", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        grabCursor: true,
+        pagination: {
+        el: '.slider__pagination',
+        clickable: true,
+        },
+        autoplay: {
+        delay: 5000,
+        },
+        });
+        
+</script>
+        </div>
+        <div class="menutab">
+
+            <div class="menutab-item  ">
+                <a class="" href="/tin-tuc-tong-hop/">Về MSC Clinic</a>
+            </div>
+            <div class="menutab-item  ">
+                <a class="" href="/diem-tin-fibo/">Đội ngũ chuyên gia  – bác sĩ</a>
+            </div>
+            <div class="menutab-item tab-active">
+                <a class="" href="/kien-thuc-dau-tu/">Đối tác của MSC</a>
+            </div>
+            <div class="menutab-item  ">
+                <a class="" href="/goc-chung-khoan/">Công nghệ & trang thiết bị </a>
+            </div>
+        </div>   
+        <div class="partner-wrapper">
+            <div class="grid">
+                <div class="title-wrapper">
+                    <h2>Đối tác của MSC</h2>
+                    <div class="intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officia quidem animi nostrum quos, iure enim autem magnam officiis adipisci cumque corporis velit culpa consectetur est dicta sunt aperiam nulla.</div>
+                </div>
+                
+                <div class="partner">
+                    <div class="flex-container">
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item1.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item2.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item3.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item4.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item5.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item6.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item1.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item2.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-2">
+                            <div class="item">
+                                <a href="" class="img-shine">
+                                    <img src="/uploaded/doitac/item3.png" alt="">
+                                </a>
+                                <div class="desc">
+                                    <h3><a href="#">Đối tác của MSC</a></h3>
+                                    <p class="text-line-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="booking-wrapper">
+            <div class="grid">
+                <div class="flex-container">
+                    <div class="cell-1-2 tab-cell-1-1">
+                        <div class="item">
+                            <div class="title">ĐẶT HẸN VỚI BÁC SĨ</div>
+                            <form  action="/index4.php?page=contact&lang=" method="post" class="frmSubmit" id="formtuvan" data-alert="Bạn cần nhập đủ thông tin vào những trường màu đỏ" data-captcha ="Mã captcha không đúng" data-success="Thông tin liên hệ đã được gửi thành công !" data-redirect="/contact-success/" class="frmSubmit">
+                              <input type="hidden"  name="code" value="save" />     
+                    
+                                <div class="form_booking">
+                                  <div class="c20"></div>
+                                  <div class="intro">Eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                    <div class="c10"></div>
+                                  <div class="flex-container">
+                                    <div class="cell-1-1 tab-cell-1-1">
+                                      <input name="yourname" type="text" class="txt-contact notNull" placeholder="Họ tên*">
+                                    </div> 
+                                    <div class="cell-1-2 tab-cell-1-1">
+                                      <input name="phone" type="text"  class="txt-contact notNull"  placeholder="Điện thoại*">
+                                    </div>
+                                    <div class="cell-1-2 tab-cell-1-1">
+                                      <input name="email" type="text"  class="txt-contact notNull"  placeholder="Email*">
+                                    </div>
+                                    <div class="cell-1-1 tab-cell-1-1">
+                                      <textarea name="other_request" placeholder="Ghi chú"></textarea>
+                                    </div>
+                                  </div>
+                                  <input name="input" type="button" onClick="$('#formtuvan').submit()"  class="btn-dangky hvr-bounce-to-bottom" value="Đặt hẹn" />
+                                </div>
+                                <div class="c30"></div>
+                                </form>
+               
+                            </div>
+                           
+                          </div>
+                    </div>
+                    <div class="tab-cell-1-2"></div>
+                </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <img src="/uploaded/background/footer.png" alt="" class="bg-footer">
+      <div class="grid">
+          <div class="flex-container">
+              <div class="cell-1-4 pad-cell-1-2 tab-cell-1-1">
+                <img src="/uploaded/logo/logowhite.png" alt="">
+                <div class="intro-footer">
+                  Liệu pháp M-MSC THERAPY </br>
+                  Giúp tái tạo và phục hồi toàn diện cơ xương khớp
+                </div>
+                <div class="coppy-right hide-on-mobile">
+                  Copyright ©  2022 MSC Clinic
+                </div>
+                <div class="bocongthuong">
+                   <div class="item">
+                    <a href="#"> 
+                      <img src="/images/bct.png" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="/images/mca.png" alt="">
+                    </a>
+                   </div>
+                </div>
+              </div>
+              <div class="cell-1-4 tab-cell-1-1 pad-cell-1-2">
+                  <div class="footer-block">
+                      <h3 class="footer-title">
+                         <a href="#"> Tin tức & sự kiện</a>
+                      </h3>
+                      <ul>
+                        <li> <a href="#">Hợp tác y khoa</a></li>
+                        <li> <a href="#">Kiến thức sức khỏe</a></li>
+                        <li> <a href="#">Câu chuyện khách hàng</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="cell-1-4 tab-cell-1-1 pad-cell-1-2">
+                <div class="footer-block">
+                    <h3 class="footer-title">
+                       <a href="#"> Chuyên khoa điều trị</a>
+                    </h3>
+                    <ul>
+                      <li> <a href="#">Bệnh thoái hóa khớp</a></li>
+                      <li> <a href="#">Chấn thương chỉnh hình</a></li>
+                      <li> <a href="#">Bệnh lý cột sống</a></li>
+                      <li> <a href="#">Viêm gan</a></li>
+                      <li> <a href="#">Hồi phục sau phẫu thuật cơ xương khớp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cell-1-4 tab-cell-1-1 pad-cell-1-2">
+              <div class="footer-block">
+                  <h3 class="footer-title">
+                     <a href="#">Theo dõi MSC Clinic tại</a>
+                  </h3>
+                  <ul class="footer-social">
+            
+                    <li class="facebook  hvr-float">
+                      <a href="" class="footer-social__item">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="youtube  hvr-float">
+                      <a href="" class="footer-social__item">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+          </div>
+          <div class="c30"></div>
+      </div>
+     
+      <div class="footer-info">
+        <div class="grid">
+            <div class="flex-container">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i> Tầng G, -1-2-3, TT20-21-22, Số 204 Nguyễn Tuân, Nhân Chính, Thanh Xuân, Hà Nội
+                </div>
+                <div class="open-time">
+                  <i class="fas fa-clock"></i> Thời gian mở cửa: 8h00 - 17h00 (Thứ 2 - Thứ 7)
+                </div>
+                <div class="tel">
+                  <i class="fas fa-phone-alt"></i>Hotline: 1900 0326 
+                </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- end footer -->
+    </div>
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="#">About</a>
+      <ul>
+        <li><a href="https://s.codepen.io/georgemarts/debug/0aa033477732634485c3f04b17321ccb?">History<span>Click me</span></a></li>
+        <li><a href="#">Vision</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Clients</a></li>
+    <li><a href="#">News</a></li>
+    <li>
+      <a href="#">Contact</a>
+      <ul>
+        <li>
+          <a href="#">Social Media</a>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </li>
+    <li class="plugin"><a href="http://mmenu.frebsite.nl/" targey="_blank">mmenu.js</a></li>
+  </ul>
+</nav>
+  <!-- <div class="social-fixed">
+      <div class="right-hotline">
+        <a href="tel:"><i class="fas fa-phone-alt"></i></a>
+    </div>
+  </div> -->
+  <div class="phone" id="phone">
+    <a href="#">
+      <div class="quick-alo-ph-circle"></div>
+      <div class="quick-alo-ph-circle-fill"></div>
+      <div class="quick-alo-ph-img-circle"><i class="fas fa-phone-alt"></i></div>
+    </a>
+  </div>
+    
+  <link rel="stylesheet" href="/css/jquery.fancybox.css" />
+  <script src="/js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="/css/hover.css" />
+
+  
+</body>
+
+</html>
+
